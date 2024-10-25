@@ -8,26 +8,26 @@ PyScrapeR é uma ferramenta simples para clonar sites, baixando arquivos HTML, C
 Siga os passos abaixo para configurar e executar o projeto no Linux:
 
 1. **Atualize o sistema e instale o Python 3 e o pip** (caso ainda não estejam instalados):
-   \`\`\`bash
+   ```bash
    sudo apt update
    sudo apt install python3 python3-pip
-   \`\`\`
+   ```
 
 2. **Clone o repositório**:
-   \`\`\`bash
+   ``` bash
    git clone https://github.com/samsep1ol-dev/PyScrapeR.git
    cd PyScrapeR
-   \`\`\`
+   ```
 
 3. **Instale as dependências**:
-   \`\`\`bash
+   ``` bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Execute o script**:
-   \`\`\`bash
+   ``` bash
    python3 main.py
-   \`\`\`
+   ```
 
 ## Uso
 
