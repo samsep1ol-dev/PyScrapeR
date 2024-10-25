@@ -1,4 +1,4 @@
-```bash
+
 echo "# PyScrapeR
 
 PyScrapeR é uma ferramenta simples para clonar sites, baixando arquivos HTML, CSS, JS e imagens da URL fornecida. Ideal para desenvolvedores e designers que desejam analisar a estrutura e o conteúdo de um site.
