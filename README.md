@@ -1,46 +1,40 @@
-# PyScrapeR
-
-PyScrapeR é uma ferramenta simples de clonagem de sites que baixa arquivos HTML, CSS, JS e imagens de um site especificado. É uma solução prática para desenvolvedores e designers que desejam analisar a estrutura e o conteúdo de um site.
-
-Como Usar:
-
-    Clone este repositório:
-
-
-git clone https://github.com/samsep1ol-dev/PyScrapeR.git 
-
-cd PyScrapeR
-
-Execute o script:
-
-python3 main.py
-
-Siga as instruções na tela para inserir o nome da pasta e a URL do site que você deseja clonar.
-
-
-
-## Pré-requisitos
-
-Para instalar o Python 3 no Ubuntu, você pode usar os seguintes comandos:
-
 ```bash
-sudo apt update
-sudo apt install python3 python3-pip
-```
+echo "# PyScrapeR
 
-## Instalação de Dependências
+PyScrapeR é uma ferramenta simples para clonar sites, baixando arquivos HTML, CSS, JS e imagens da URL fornecida. Ideal para desenvolvedores e designers que desejam analisar a estrutura e o conteúdo de um site.
 
-Depois de instalar o Python 3, você precisará instalar as dependências do projeto. As dependências necessárias estão listadas no arquivo requirements.txt. Você pode instalá-las com o seguinte comando:
+## Instalação
 
-```
-bash
+Siga os passos abaixo para configurar e executar o projeto no Linux:
 
-pip install -r requirements.txt
+1. **Atualize o sistema e instale o Python 3 e o pip** (caso ainda não estejam instalados):
+   \`\`\`bash
+   sudo apt update
+   sudo apt install python3 python3-pip
+   \`\`\`
 
-```
+2. **Clone o repositório**:
+   \`\`\`bash
+   git clone https://github.com/samsep1ol-dev/PyScrapeR.git
+   cd PyScrapeR
+   \`\`\`
 
-O PyScrapeR depende das seguintes bibliotecas:
+3. **Instale as dependências**:
+   \`\`\`bash
+   pip install -r requirements.txt
+   \`\`\`
 
-    requests: Para realizar requisições HTTP.
-    lxml: Para fazer parsing do HTML e XML.
+4. **Execute o script**:
+   \`\`\`bash
+   python3 main.py
+   \`\`\`
+
+## Uso
+
+Após executar o script, você será solicitado a preencher os seguintes dados nos inputs do terminal:
+
+- **Nome da pasta**: Nome do diretório onde o site clonado será salvo.
+- **URL do site**: Link do site que você deseja clonar.
+
+O script irá baixar a estrutura do site com os arquivos HTML, CSS, JS e imagens na pasta especificada.
 
