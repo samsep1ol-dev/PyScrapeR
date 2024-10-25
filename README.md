@@ -12,6 +12,13 @@ Siga os passos abaixo para configurar e executar o projeto no Linux:
    sudo apt update
    sudo apt install python3 python3-pip
    ```
+PS **CASO o pip NãO funciona use:**
+```
+sudo apt install pipx
+pipx install -r requirements.txt
+
+```
+
 
 2. **Clone o repositório**:
    ``` bash
